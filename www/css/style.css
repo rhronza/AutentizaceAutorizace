@@ -1,0 +1,81 @@
+body {
+	font-size: 15px;
+	line-height: 1.6;
+	color: #333;
+	background: white;
+}
+
+h1 {
+	color: #3484D2;
+}
+
+#ajax-spinner {
+	margin: 15px 0 0 15px;
+	padding: 13px;
+	background: white url('../images/spinner.gif') no-repeat 50% 50%;
+	font-size: 0;
+	z-index: 123456;
+	display: none;
+}
+
+div.flash {
+	color: white;
+	background: #D00;
+	border: 1px solid #E2C822;
+	padding: 0.3em;
+	margin: 0.3em 0;
+        text-align: center;
+        font: bold 12px Verdana;
+        /*font-weight: bold;*/
+}
+
+a[href^="#error:"] {
+	background: red;
+	color: white;
+}
+
+form th, form td {
+	vertical-align: top;
+	font-weight: normal;
+}
+
+form th {
+	text-align: right;
+}
+
+form .required label {
+	font-weight: bold;
+}
+
+form .error {
+	color: #D00;
+	font-weight: bold;
+}
+
+.centered-Oblast{ 
+position: fixed;
+top: 50%; 
+left: 50%; 
+/* bring your own prefixes */ 
+transform: translate(-50%, -50%);
+}
+.centered-Oblast-nahoru{ 
+position: fixed;
+top: 50%; 
+left: 50%; 
+/* bring your own prefixes */ 
+transform: translate(-50%, -100%);
+}
+
+.vycentrujTabulku{
+    margin: 0px auto;
+    top:auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    background: #FFF9D7; padding: 20px; border-radius: 0px
+}
+
+.hlavniVolby{
+    color: #006AEB;
+    padding: 30px;
+}

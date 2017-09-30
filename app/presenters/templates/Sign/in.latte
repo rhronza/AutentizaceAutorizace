@@ -1,0 +1,55 @@
+{block content}
+<body class="hlavniObrazovka">
+    <div class="centered-Oblast-nahoru">
+        <div class="obsah">
+            <h1 n:block=title style="margin: 10px">Přihlášení do aplikace</h1>
+            {control signInForm}
+        </div>
+    </div>
+</body>
+
+<style>
+    .hlavniVolbyObrazovky{
+     color: #006AEB; 
+     margin: 30px 30px 30px 30px;    
+    }
+    
+    .centered-Oblast{ 
+        position: fixed;
+        top: 50%; 
+        left: 50%; 
+        /* bring your own prefixes */ 
+        transform: translate(-50%, -50%);
+        background: white; 
+        border-radius: 30px; 
+        padding: 20px; padding-bottom: 50px;
+        /*margin: 70px; */
+        text-align: right;
+    }
+    
+    .centered-Oblast-nahoru{ 
+        position: fixed;
+        top: 50%; 
+        left: 50%; 
+        /* bring your own prefixes */ 
+        transform: translate(-50%, -100%);
+        background: white; 
+        border-radius: 30px; 
+        padding: 30px; 
+        /*padding-bottom: 40px;*/
+        /*margin: 70px; */
+        text-align: right;
+    }
+    .hlavniObrazovka{
+        background: #006aeb; 
+        width: 100%; 
+        height: 100%; 
+        margin: auto    
+    }
+    .obsah{
+        font: 12px Verdana;
+        margin-top: 0px;
+        text-align: left; 
+        padding-left: 8px;
+    }
+</style>

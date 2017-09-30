@@ -1,0 +1,21 @@
+{* Latte template *}
+
+{block content}
+<div class="centered-Oblast-nahoru" style="width: 100%">
+    <h1 style="text-align: center">Úprava PŘÍSTUPOVÝCH PRÁV</h1>
+{form pristupovaPrava}
+    <div style="text-align: center">
+        <li style="color: red; font-weight: bold; background-color: white" n:foreach="$form->ownErrors as $error">{$error}</li>
+        {input user_id}
+        {input role_id}
+        {input zdroj_id}
+        {input cinnost_id}
+        {input send}
+    </div>  
+{/form}
+<p style="text-align: center">
+    <a n:href="Autorizace:roleZdrojeCinnosti" >
+        <i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true" title="Zpět" ></i>
+    </a>
+</p>
+</div>
